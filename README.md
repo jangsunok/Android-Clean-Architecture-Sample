@@ -5,6 +5,15 @@ This is Sample project that apply Clean Architecture
 ![](static/structure.png)
 
 
+## TODO
+- Room Cache in data
+- Paging Library
+- MVP or MVVM in app
+- recyclerview
+- test code
+- layout with constraintLayout
+
+
 ## Reference
 - [Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture/tree/master/domain/src/main/java/com/fernandocejas/android10/sample/domain)
 - [Android Architecture Blueprints [beta] - MVP + Clean Architecture](https://github.com/googlesamples/android-architecture/tree/todo-mvp-clean)
