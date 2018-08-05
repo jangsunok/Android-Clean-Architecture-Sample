@@ -1,27 +1,44 @@
 # Clean Architecture Sample
 
+This is Sample project that apply Clean Architecture
+
+![alt text](https://github.com/jangsunok/Android-Clean-Architecture-Sample/readme/structure.png)
+
 
 
 ## Reference
+- [Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture/tree/master/domain/src/main/java/com/fernandocejas/android10/sample/domain)
+- [Android Architecture Blueprints [beta] - MVP + Clean Architecture](https://github.com/googlesamples/android-architecture/tree/todo-mvp-clean)
 
-https://jsonplaceholder.typicode.com/ sample api 활용
 
-Language: Kotlin
+## Dependecies
 
-어플 구성
+- Kotlin
+- [OkHttp](http://square.github.io/okhttp/)
+- [Retrofit](http://square.github.io/retrofit/)
+- [RxJava](https://github.com/ReactiveX/RxJava)
+- [RxAndroid](https://github.com/ReactiveX/RxAndroid)
+- [Glide](https://github.com/bumptech/glide)
+- [Dagger2](https://github.com/google/dagger)
 
-메인 화면 사진 리스트 (디자인 알아서 대충)
 
-https://jsonplaceholder.typicode.com/photos Api 사용
+## API Dependencies
+- [jsonplaceholder](https://jsonplaceholder.typicode.com/)
 
-예) https://jsonplaceholder.typicode.com/photos?_limit=10&_page=3
 
-column gridlayout recyclerview
+## License
 
-상세 화면: 사진 상세뷰 (디자인 알아서 대충)
+```
+Copyright 2018 jangsunok
 
-https://jsonplaceholder.typicode.com/photos/1
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-리스트에 내려주는 photo 모델 데이터와 동일하지만 이미 있지만 스터디 목적을 위해 상세 api 한번 더 호출하는 방식으로 구현
+   http://www.apache.org/licenses/LICENSE-2.0
 
-구현방식: 자유롭게 원하는 방식으로 구현한뒤에 같이 장단점을 이야기 해보기로
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
