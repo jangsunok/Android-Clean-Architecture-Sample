@@ -2,8 +2,7 @@
 
 This is Sample project that apply Clean Architecture
 
-![alt text](https://github.com/jangsunok/Android-Clean-Architecture-Sample/readme/structure.png)
-
+![](static/structure.png)
 
 
 ## Reference
